@@ -5625,18 +5625,9 @@ html.lenis body {
 /*----------------------------------------*/
 /*  2.21 cursor
 /*----------------------------------------*/
-/* .rs-theme-settings-area {
-  position: fixed;
-  top: 50%;
-  right: 0px;
-  width: 240px;
-  background-color: var(--rs-white);
-  transform: translateY(-50%) translateX(100%);
-  z-index: 991;
-  border-bottom-right-radius: 4px;
-  box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.1);
-  transition: all 0.4s 0s ease-out;
-} */
+.rs-theme-settings-area {
+  display: none;
+}
 .rs-theme-settings-area.settings-opened {
   transform: translateY(-50%) translateX(0%);
 }
